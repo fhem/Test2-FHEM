@@ -1,2 +1,27 @@
-# Test2-FHEM
-Test2 Tools for FHEM
+# Test2::FHEM
+Repository for [Test2](https://metacpan.org/pod/Test2) Helper Modules used in FHEM environment
+
+
+# Files included in this template:
+
+
+## Files and folders
+
+### lib/Test2/FHEM/SIGNALduino/RDmsg.pm
+
+Tool that helps testing dispatch (via dmsg messages), loaded from a json file which defines settings and expected tests
+
+
+### lib/Test2/FHEM/Command.pm
+
+Tool that helps testing Results of FHEM commands (set, get and attr), provided via a pure perl hash.
+
+
+### .perlcritc
+
+Settings for perlcritc commandline tool
+
+### cpanfile
+
+Cpan modules needed for running your module and your tests, they will be installed after perl is set up and running 
+
