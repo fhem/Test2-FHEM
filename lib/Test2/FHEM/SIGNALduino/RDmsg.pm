@@ -10,7 +10,7 @@ use File::Basename;
 use Test2::API qw/context run_subtest/;
 use base 'Exporter';
 
-our @EXPORT = qw/dmsgCheck rmsgCheck/;
+our @EXPORT = qw/dmsgCheck/;
 our $VERSION = 1.00;
 our $testDataArray; 
 our @JSONTestList = (
