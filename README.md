@@ -2,7 +2,7 @@
 Repository for [Test2](https://metacpan.org/pod/Test2) Helper Modules used in FHEM environment
 
 
-# Files included in this template:
+# Files included in this repository:
 
 
 ## Files and folders
