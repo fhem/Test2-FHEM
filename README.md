@@ -25,3 +25,8 @@ Settings for perlcritc commandline tool
 
 Cpan modules needed for running your module and your tests, they will be installed after perl is set up and running 
 
+
+# Installation of tools
+
+Update from this repository
+`update force https://raw.githubusercontent.com/fhem/Test2-FHEM/main/controls_Test2-FHEM.txt`

@@ -1,4 +1,4 @@
-package Test2:::FHEM::Command;
+package Test2::FHEM::Command;
 
 #  tests are defined via array of hashes @mock, which is injectd from the calling scope
 #   First Element in array can be a element which holds defaults
