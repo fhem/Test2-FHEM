@@ -1,3 +1,167 @@
+2023-07-10 - Bump shogo82148/actions-setup-perl from 1.21.2 to 1.22.0 (#7)
+
+Bumps
+[shogo82148/actions-setup-perl](https://github.com/shogo82148/actions-setup-perl)
+from 1.21.2 to 1.22.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href="https://github.com/shogo82148/actions-setup-perl/releases">shogo82148/actions-setup-perl's
+releases</a>.</em></p>
+<blockquote>
+<h2>v1.22.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Bump typescript from 5.1.3 to 5.1.5 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1553">shogo82148/actions-setup-perl#1553</a></li>
+<li>Bump typescript from 5.1.5 to 5.1.6 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1554">shogo82148/actions-setup-perl#1554</a></li>
+<li>update carton by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1557">shogo82148/actions-setup-perl#1557</a></li>
+<li>lock the version of CPAN::Meta::Requirements by <a
+href="https://github.com/shogo82148"><code>@​shogo82148</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1559">shogo82148/actions-setup-perl#1559</a></li>
+<li>perl 5.38.0 is released by <a
+href="https://github.com/shogo82148"><code>@​shogo82148</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1555">shogo82148/actions-setup-perl#1555</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href="https://github.com/shogo82148/actions-setup-perl/compare/v1.21.3...v1.22.0">https://github.com/shogo82148/actions-setup-perl/compare/v1.21.3...v1.22.0</a></p>
+<h2>v1.21.3</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>update cpm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1540">shogo82148/actions-setup-perl#1540</a></li>
+<li>update carton by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1541">shogo82148/actions-setup-perl#1541</a></li>
+<li>Bump semver from 7.5.1 to 7.5.2 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1542">shogo82148/actions-setup-perl#1542</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1543">shogo82148/actions-setup-perl#1543</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1544">shogo82148/actions-setup-perl#1544</a></li>
+<li>update cpm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1545">shogo82148/actions-setup-perl#1545</a></li>
+<li>update carton by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1546">shogo82148/actions-setup-perl#1546</a></li>
+<li>Bump semver from 7.5.2 to 7.5.3 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1547">shogo82148/actions-setup-perl#1547</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1548">shogo82148/actions-setup-perl#1548</a></li>
+<li>Revert &quot;update cpm&quot; by <a
+href="https://github.com/shogo82148"><code>@​shogo82148</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1550">shogo82148/actions-setup-perl#1550</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href="https://github.com/shogo82148/actions-setup-perl/compare/v1.21.2...v1.21.3">https://github.com/shogo82148/actions-setup-perl/compare/v1.21.2...v1.21.3</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/04a9a397f834661fa6faf5aa6d16d14536249d2a"><code>04a9a39</code></a>
+bump up to v1.22.0</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/84b0cbda5d202eec8a92770b42bc5d73758bdeb0"><code>84b0cbd</code></a>
+Merge branch 'main' into releases/v1</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/d596139d7d96580d83f8bfa2ba4ac565eb5edc2e"><code>d596139</code></a>
+perl 5.38.0 is released (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1555">#1555</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/674b8cefe7a03750ce1873663963d5113cd6c4fb"><code>674b8ce</code></a>
+lock the version of CPAN::Meta::Requirements (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1559">#1559</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/c182a50a1c2375ab8fb8c33a16ba16d4526926b1"><code>c182a50</code></a>
+update carton (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1557">#1557</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/04463ef0ab2a61f22ce92dea65536e544002846d"><code>04463ef</code></a>
+Bump typescript from 5.1.5 to 5.1.6 (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1554">#1554</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/2b5b5b1faa301869e0fd1639fbc41d6b9eb0a324"><code>2b5b5b1</code></a>
+Bump typescript from 5.1.3 to 5.1.5 (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1553">#1553</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/a67113985e0d5fab15c98bd0875f6218759be902"><code>a671139</code></a>
+build v1.21.3</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/405d5d7769a0cfd3e502759d2610090d6f3699e6"><code>405d5d7</code></a>
+bump up to v1.21.3</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/ad5e4779566731c8a52fcb8cb961ad4795dd76e4"><code>ad5e477</code></a>
+Merge branch 'main' into releases/v1</li>
+<li>Additional commits viewable in <a
+href="https://github.com/shogo82148/actions-setup-perl/compare/v1.21.2...v1.22.0">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility
+score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=shogo82148/actions-setup-perl&package-manager=github_actions&previous-version=1.21.2&new-version=1.22.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't
+alter it yourself. You can also trigger a rebase manually by commenting
+`@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after
+your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge
+and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating
+it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop
+Dependabot creating any more for this major version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop
+Dependabot creating any more for this minor version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop
+Dependabot creating any more for this dependency (unless you reopen the
+PR or upgrade to it yourself)
+
+
+</details>
 2023-07-03 - Automatic updated controls and CHANGED
 2023-06-26 - Automatic updated controls and CHANGED
 2023-06-19 - Automatic updated controls and CHANGED
