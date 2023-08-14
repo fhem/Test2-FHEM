@@ -1,3 +1,182 @@
+2023-08-14 - Bump shogo82148/actions-setup-perl from 1.23.0 to 1.23.1 (#9)
+
+Bumps
+[shogo82148/actions-setup-perl](https://github.com/shogo82148/actions-setup-perl)
+from 1.23.0 to 1.23.1.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href="https://github.com/shogo82148/actions-setup-perl/releases">shogo82148/actions-setup-perl's
+releases</a>.</em></p>
+<blockquote>
+<h2>v1.23.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>bump semvar v6.3.0 by <a
+href="https://github.com/shogo82148"><code>@​shogo82148</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1581">shogo82148/actions-setup-perl#1581</a></li>
+<li>Bump prettier from 2.8.8 to 3.0.0 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1566">shogo82148/actions-setup-perl#1566</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1582">shogo82148/actions-setup-perl#1582</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1583">shogo82148/actions-setup-perl#1583</a></li>
+<li>update carton by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1586">shogo82148/actions-setup-perl#1586</a></li>
+<li>update cpm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1585">shogo82148/actions-setup-perl#1585</a></li>
+<li>update cpanm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1587">shogo82148/actions-setup-perl#1587</a></li>
+<li>Bump jest from 29.6.1 to 29.6.2 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1588">shogo82148/actions-setup-perl#1588</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1589">shogo82148/actions-setup-perl#1589</a></li>
+<li>Bump prettier from 3.0.0 to 3.0.1 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1593">shogo82148/actions-setup-perl#1593</a></li>
+<li>auto update OpenSSL by <a
+href="https://github.com/shogo82148"><code>@​shogo82148</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1590">shogo82148/actions-setup-perl#1590</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1592">shogo82148/actions-setup-perl#1592</a></li>
+<li>update cpanm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1591">shogo82148/actions-setup-perl#1591</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1594">shogo82148/actions-setup-perl#1594</a></li>
+<li>update cpm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1595">shogo82148/actions-setup-perl#1595</a></li>
+<li>Bump <code>@​actions/cache</code> from 3.2.1 to 3.2.2 by <a
+href="https://github.com/dependabot"><code>@​dependabot</code></a> in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1597">shogo82148/actions-setup-perl#1597</a></li>
+<li>update build tools by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1596">shogo82148/actions-setup-perl#1596</a></li>
+<li>update cpanm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1598">shogo82148/actions-setup-perl#1598</a></li>
+<li>update cpm by <a
+href="https://github.com/shogo82148-slim"><code>@​shogo82148-slim</code></a>
+in <a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/pull/1599">shogo82148/actions-setup-perl#1599</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href="https://github.com/shogo82148/actions-setup-perl/compare/v1.23.0...v1.23.1">https://github.com/shogo82148/actions-setup-perl/compare/v1.23.0...v1.23.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/35426a57f184a35daee329bb17ae49332ff8a422"><code>35426a5</code></a>
+build v1.23.1</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/66b1a77eb0ce6a5402c09bf421907765dc664986"><code>66b1a77</code></a>
+bump up to v1.23.1</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/dcf93da2959b4db53dfb86eb5e22059cc20ab653"><code>dcf93da</code></a>
+Merge branch 'main' into releases/v1</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/b2335fbe9e4cbd0b92c6016d237ac2e4c3d2d2da"><code>b2335fb</code></a>
+update cpm (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1599">#1599</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/2d20ae097f902388129345d7e0a83d271eb837a8"><code>2d20ae0</code></a>
+update cpanm (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1598">#1598</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/f43f64a429ff620620c1cf9e0bd526d1e80bcc7b"><code>f43f64a</code></a>
+update build tools (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1596">#1596</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/82b4f5430a550f301c587e1536e26b35eb94de13"><code>82b4f54</code></a>
+Bump <code>@​actions/cache</code> from 3.2.1 to 3.2.2 (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1597">#1597</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/60a8feea7f48c02f24b868964216f6fb9350976b"><code>60a8fee</code></a>
+update cpm (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1595">#1595</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/c12d8c9daa1122a2db9625b384952e779888e73b"><code>c12d8c9</code></a>
+update build tools (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1594">#1594</a>)</li>
+<li><a
+href="https://github.com/shogo82148/actions-setup-perl/commit/9acc901c7b743af72b15271cef9af5ad8352666c"><code>9acc901</code></a>
+update cpanm (<a
+href="https://redirect.github.com/shogo82148/actions-setup-perl/issues/1591">#1591</a>)</li>
+<li>Additional commits viewable in <a
+href="https://github.com/shogo82148/actions-setup-perl/compare/v1.23.0...v1.23.1">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility
+score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=shogo82148/actions-setup-perl&package-manager=github_actions&previous-version=1.23.0&new-version=1.23.1)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't
+alter it yourself. You can also trigger a rebase manually by commenting
+`@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after
+your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge
+and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating
+it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop
+Dependabot creating any more for this major version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop
+Dependabot creating any more for this minor version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop
+Dependabot creating any more for this dependency (unless you reopen the
+PR or upgrade to it yourself)
+
+
+</details>
 2023-08-07 - Automatic updated controls and CHANGED
 2023-07-31 - Automatic updated controls and CHANGED
 2023-07-24 - Bump shogo82148/actions-setup-perl from 1.22.0 to 1.23.0 (#8)
