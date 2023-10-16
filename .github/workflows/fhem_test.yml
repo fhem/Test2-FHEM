@@ -48,7 +48,7 @@ jobs:
         git ls-files --error-unmatch CHANGED || git add CHANGED
         git diff --name-only --exit-code controls_signalduino.txt || git commit CHANGED ${CONTROLS_FILENAME} -m "Automatic updated controls and CHANGED" || true
     - name: git push
-      uses: ad-m/github-push-action@v0.6.0
+      uses: ad-m/github-push-action@v0.8.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ steps.extract_branch.outputs.branch }}
