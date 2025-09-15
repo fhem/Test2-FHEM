@@ -1,3 +1,131 @@
+2025-09-15 - Bump ad-m/github-push-action from 0.8.0 to 1.0.0 (#30)
+
+Bumps
+[ad-m/github-push-action](https://github.com/ad-m/github-push-action)
+from 0.8.0 to 1.0.0.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href="https://github.com/ad-m/github-push-action/releases">ad-m/github-push-action's
+releases</a>.</em></p>
+<blockquote>
+<h2>v1.0.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>docs: Adjust the PAT documentation by <a
+href="https://github.com/ZPascal"><code>@​ZPascal</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/174">ad-m/github-push-action#174</a></li>
+<li>feat: Add push to submodules support by <a
+href="https://github.com/ZPascal"><code>@​ZPascal</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/155">ad-m/github-push-action#155</a></li>
+<li>docs: Adjust the initial git write access documentation by <a
+href="https://github.com/ZPascal"><code>@​ZPascal</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/190">ad-m/github-push-action#190</a></li>
+<li>fix: Update the documentation by <a
+href="https://github.com/ZPascal"><code>@​ZPascal</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/160">ad-m/github-push-action#160</a></li>
+<li>Update the release process and setup the process to specify tags by
+<a href="https://github.com/ZPascal"><code>@​ZPascal</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/145">ad-m/github-push-action#145</a></li>
+<li>Issue 191 by <a
+href="https://github.com/ZPascal"><code>@​ZPascal</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/197">ad-m/github-push-action#197</a></li>
+<li>Add only push tags support by <a
+href="https://github.com/ZPascal"><code>@​ZPascal</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/154">ad-m/github-push-action#154</a></li>
+<li>docs: improve documentation and update image by <a
+href="https://github.com/jackton1"><code>@​jackton1</code></a> in <a
+href="https://redirect.github.com/ad-m/github-push-action/pull/195">ad-m/github-push-action#195</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href="https://github.com/ad-m/github-push-action/compare/v0.8.0...v1.0.0">https://github.com/ad-m/github-push-action/compare/v0.8.0...v1.0.0</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/77c5b412c50b723d2a4fbc6d71fb5723bcd439aa"><code>77c5b41</code></a>
+docs: improve documentation and update image (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/195">#195</a>)</li>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/f17d07cb45271aeff552bb2913a939bad92d6a6f"><code>f17d07c</code></a>
+Add only push tags support (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/154">#154</a>)</li>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/2ebd2b29bb6358d0f820230a5dde41ee207d1d26"><code>2ebd2b2</code></a>
+Issue 191 (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/197">#197</a>)</li>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/9870d48124da805820c70ebc6ba563c715551019"><code>9870d48</code></a>
+Update the release process and setup the process to specify tags (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/145">#145</a>)</li>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/fcea09907c44d7a7a3331c9c04080d55d87c95fe"><code>fcea099</code></a>
+fix: Update the documentation (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/160">#160</a>)</li>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/fc0cf17cf360e4df1e3d7964847365fdc40ae03f"><code>fc0cf17</code></a>
+docs: Adjust the initial git write access documentation (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/190">#190</a>)</li>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/e0ae067286acece1cf1f5de6fccff5b8d7d82356"><code>e0ae067</code></a>
+feat: Add push to submodules support (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/155">#155</a>)</li>
+<li><a
+href="https://github.com/ad-m/github-push-action/commit/c8e916676288f4db183792490450557e2d4296ef"><code>c8e9166</code></a>
+docs: Adjust the PAT and protected branch documentation (<a
+href="https://redirect.github.com/ad-m/github-push-action/issues/174">#174</a>)</li>
+<li>See full diff in <a
+href="https://github.com/ad-m/github-push-action/compare/v0.8.0...v1.0.0">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility
+score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=ad-m/github-push-action&package-manager=github_actions&previous-version=0.8.0&new-version=1.0.0)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't
+alter it yourself. You can also trigger a rebase manually by commenting
+`@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after
+your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge
+and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating
+it. You can achieve the same result by closing it manually
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore this major version` will close this PR and stop
+Dependabot creating any more for this major version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop
+Dependabot creating any more for this minor version (unless you reopen
+the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop
+Dependabot creating any more for this dependency (unless you reopen the
+PR or upgrade to it yourself)
+
+
+</details>
 2025-09-08 - Automatic updated controls and CHANGED
 2025-09-01 - Automatic updated controls and CHANGED
 2025-08-25 - Automatic updated controls and CHANGED
