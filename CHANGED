@@ -1,3 +1,22 @@
+2026-05-12 - Skip workflow push when no commit was created (#42)
+
+## What changed
+
+The `Fhem UnitTest` workflow now records whether the `git commit back`
+step actually created a commit. The following `git push` step only runs
+when that output is `true`.
+
+## Why
+
+Runs without repository write permissions were failing even when there
+was nothing to push, because the push action was executed
+unconditionally. Skipping the push when no commit was created avoids
+that unnecessary permission-sensitive step.
+
+## Validation
+
+- Parsed `.github/workflows/fhem_test.yml` with PyYAML
+- Ran `git diff --check -- .github/workflows/fhem_test.yml`
 2026-05-12 - Skip workflow push when no commit was created
 2026-05-11 - Bump shogo82148/actions-setup-perl from 1.40.1 to 1.41.0 (#40)
 
