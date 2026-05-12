@@ -46,9 +46,8 @@ jobs:
         git config --global user.email "action@github.com"
         git config --local user.name "GitHub Action"
         before_commit=$(git rev-parse HEAD)
-        git ls-files --error-unmatch ${CONTROLS_FILENAME} || git add ${CONTROLS_FILENAME}
-        git ls-files --error-unmatch CHANGED || git add CHANGED
-        git diff --name-only --exit-code controls_signalduino.txt || git commit CHANGED ${CONTROLS_FILENAME} -m "Automatic updated controls and CHANGED" || true
+        git add CHANGED "${CONTROLS_FILENAME}"
+        git diff --cached --quiet -- CHANGED "${CONTROLS_FILENAME}" || git commit -m "Automatic updated controls and CHANGED"
         after_commit=$(git rev-parse HEAD)
         if [ "$before_commit" != "$after_commit" ]; then
           echo "committed=true" >> $GITHUB_OUTPUT
@@ -56,7 +55,7 @@ jobs:
           echo "committed=false" >> $GITHUB_OUTPUT
         fi
     - name: git push
-      if: steps.commit_back.outputs.committed == 'true'
+      if: steps.commit_back.outputs.committed == 'true' && github.actor != 'dependabot[bot]'
       uses: ad-m/github-push-action@v1.0.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
