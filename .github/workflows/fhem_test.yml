@@ -41,13 +41,22 @@ jobs:
         LOG+=" - $(git log -1 --pretty=%B)"
         echo "$LOG" | cat - CHANGED  2>/dev/null >> temp || true  && mv temp CHANGED
     - name: git commit back
+      id: commit_back
       run: |
         git config --global user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        before_commit=$(git rev-parse HEAD)
         git ls-files --error-unmatch ${CONTROLS_FILENAME} || git add ${CONTROLS_FILENAME}
         git ls-files --error-unmatch CHANGED || git add CHANGED
         git diff --name-only --exit-code controls_signalduino.txt || git commit CHANGED ${CONTROLS_FILENAME} -m "Automatic updated controls and CHANGED" || true
+        after_commit=$(git rev-parse HEAD)
+        if [ "$before_commit" != "$after_commit" ]; then
+          echo "committed=true" >> $GITHUB_OUTPUT
+        else
+          echo "committed=false" >> $GITHUB_OUTPUT
+        fi
     - name: git push
+      if: steps.commit_back.outputs.committed == 'true'
       uses: ad-m/github-push-action@v1.0.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
