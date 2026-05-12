@@ -35,7 +35,18 @@ jobs:
         filename: ${{env.CONTROLS_FILENAME}} 
         directory: lib/Test2/FHEM/SIGNALduino
         writemode: a
+    - name: check controls changes
+      id: controls_changed
+      run: |
+        git add "${CONTROLS_FILENAME}"
+        if git diff --cached --quiet -- "${CONTROLS_FILENAME}"; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          git reset -- "${CONTROLS_FILENAME}"
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
     - name: update CHANGED
+      if: steps.controls_changed.outputs.changed == 'true'
       run: |
         LOG=$(date +"%Y-%m-%d") 
         LOG+=" - $(git log -1 --pretty=%B)"
@@ -46,9 +57,12 @@ jobs:
         git config --global user.email "action@github.com"
         git config --local user.name "GitHub Action"
         before_commit=$(git rev-parse HEAD)
-        git ls-files --error-unmatch ${CONTROLS_FILENAME} || git add ${CONTROLS_FILENAME}
-        git ls-files --error-unmatch CHANGED || git add CHANGED
-        git diff --name-only --exit-code controls_signalduino.txt || git commit CHANGED ${CONTROLS_FILENAME} -m "Automatic updated controls and CHANGED" || true
+        if [ "${{ steps.controls_changed.outputs.changed }}" != "true" ]; then
+          echo "committed=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+        git add CHANGED "${CONTROLS_FILENAME}"
+        git diff --cached --quiet -- CHANGED "${CONTROLS_FILENAME}" || git commit -m "Automatic updated controls and CHANGED"
         after_commit=$(git rev-parse HEAD)
         if [ "$before_commit" != "$after_commit" ]; then
           echo "committed=true" >> $GITHUB_OUTPUT
