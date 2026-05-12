@@ -1,4 +1,3 @@
-2026-05-12 - Fix workflow push handling
 2026-05-12 - Skip workflow push when no commit was created (#42)
 
 ## What changed

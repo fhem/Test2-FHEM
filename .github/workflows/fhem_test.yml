@@ -35,7 +35,18 @@ jobs:
         filename: ${{env.CONTROLS_FILENAME}} 
         directory: lib/Test2/FHEM/SIGNALduino
         writemode: a
+    - name: check controls changes
+      id: controls_changed
+      run: |
+        git add "${CONTROLS_FILENAME}"
+        if git diff --cached --quiet -- "${CONTROLS_FILENAME}"; then
+          echo "changed=false" >> $GITHUB_OUTPUT
+          git reset -- "${CONTROLS_FILENAME}"
+        else
+          echo "changed=true" >> $GITHUB_OUTPUT
+        fi
     - name: update CHANGED
+      if: steps.controls_changed.outputs.changed == 'true'
       run: |
         LOG=$(date +"%Y-%m-%d") 
         LOG+=" - $(git log -1 --pretty=%B)"
@@ -46,6 +57,10 @@ jobs:
         git config --global user.email "action@github.com"
         git config --local user.name "GitHub Action"
         before_commit=$(git rev-parse HEAD)
+        if [ "${{ steps.controls_changed.outputs.changed }}" != "true" ]; then
+          echo "committed=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
         git add CHANGED "${CONTROLS_FILENAME}"
         git diff --cached --quiet -- CHANGED "${CONTROLS_FILENAME}" || git commit -m "Automatic updated controls and CHANGED"
         after_commit=$(git rev-parse HEAD)
@@ -55,7 +70,7 @@ jobs:
           echo "committed=false" >> $GITHUB_OUTPUT
         fi
     - name: git push
-      if: steps.commit_back.outputs.committed == 'true' && github.actor != 'dependabot[bot]'
+      if: steps.commit_back.outputs.committed == 'true'
       uses: ad-m/github-push-action@v1.0.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
